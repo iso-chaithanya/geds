@@ -1,6 +1,5 @@
-{
-  "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json"
-  ]
-}
+mountpoints:
+  /:
+    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
+    type: "markup"
+    suffix: ".html"
