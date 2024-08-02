@@ -1,5 +1,6 @@
-mountpoints:
-  /:
-    url: "https://author-p7555-e14376.adobeaemcloud.com/bin/franklin.delivery/iso-chaithanya/geds/main"
-    type: "markup"
-    suffix: ".html"
+{
+  "mappings": [
+    "/content/aem-boilerplate/:/",
+    "/content/aem-boilerplate/configuration:/.helix/config.json"
+  ]
+}
